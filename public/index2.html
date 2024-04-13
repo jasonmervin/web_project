@@ -1,0 +1,378 @@
+ <!DOCTYPE html>
+ <html lang="en">
+<head>
+    <script src="index2.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>
+            Complete Responsive Real Estate Website
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+        <!--header section starts-->
+        <header>
+            <a href="#" class="logo"><span>Real</span>Estate</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#features">Features</a>
+                <a href="#agents">Agents</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <div id="menu-bars" class="fas fa-bars"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="login.html" class="fas fa-user"></a>
+            </div>
+        </header>
+<!-- header section ends here-->
+
+<!-- home section starts here-->
+
+<section class="home" id="home">
+    <form action="/dropdown">
+        <h3>Find Your Perfect Home</h3>
+        <div class="buttons-container">
+            <a href="#" class="btn">For Rent</a>
+            <a href="#" class="btn">For Sale </a>
+        </div>
+
+        <div class="inputBox">
+            <input type="search" name="" placeholder="Neighborhood" id="">
+            <input type="search" name="" placeholder="City" id="">
+            <select name="minprice" id="minprice">
+                <option value="" disabled hidden selected>Minimum Price</option>
+                <option value="Rs.5000000">Rs.5000000</option>
+                <option value="Rs.7500000">Rs.7500000</option>
+                <option value="Rs.10000000">Rs.10000000</option>
+                <option value="Rs.12500000">Rs.12500000</option>
+                <option value="Rs.17500000">Rs.17500000</option>
+            </select>
+
+            <select name="maxprice" id="maxprice">
+                <option value="" disabled hidden selected>Maximum Price</option>
+                <option value="Rs.20000000">20000000</option>
+                <option value="Rs.25000000">Rs.25000000</option>
+                <option value="Rs.27500000">Rs.27500000</option>
+                <option value="Rs.30000000">Rs.30000000</option>
+                <option value="Rs.32500000">Rs.32500000</option>
+            </select>
+
+            <select name="status" id="status">
+                <option value="" disabled hidden selected>Property Status</option>
+                <option value="Ready to Move">Ready to Move</option>
+                <option value="Under Construction">Under Construction</option>
+                <option value="Furnished">Furnished</option>
+                <option value="Semi-Furnished">Semi-Furnished</option>
+                <option value="Unfurnished">Unfurnished</option>
+            </select>
+
+            <select name="type" id="type">
+                <option value="" disabled hidden selected>Property Type</option>
+                <option value="Flat">Flat</option>
+                <option value="House">House</option>
+                <option value="Shop">Shop</option>
+                <option value="Warehouse">Warehouse</option>
+                <option value="Land">Land</option>
+            </select>
+
+
+            <select name="aminities" id="aminities">
+                <option value="" disabled hidden selected>Aminities</option>
+                <option value="Parking Space">Parking Space</option>
+                <option value="Swimmming Pool">Swimming Pool</option>
+                <option value="Playground">Playground</option>
+                <option value="Security">Security</option>
+                <option value="All">All</option>
+            </select>
+
+            <select name="bedrooms" id="bedrooms">
+                <option value="" disabled hidden selected>Bedrooms</option>
+                <option value="1 Bedroom">1 Bedroom</option>
+                <option value="2 Bedrooms">2 Bedrooms</option>
+                <option value="3 Bedrooms">3 Bedrooms</option>
+                <option value="4 Bedrooms">4 Bedrooms</option>
+                <option value="5 Bedrooms">5 Bedrooms</option>
+            </select>
+
+            <select name="bathroom" id="bathroom">
+                <option value="" disabled hidden selected>Bathrooms</option>
+                <option value="1 Bathroom">1 Bathroom</option>
+                <option value="2 Bathrooms">2 Bathrooms</option>
+                <option value="3 Bathrooms">3 Bathrooms</option>
+                <option value="4 Bathrooms">4 Bathrooms</option>
+                <option value="5 Bathrooms">5 Bathrooms</option>
+            </select>
+
+        </div>
+
+        <input type="submit" value="Search Property" class="btn">
+
+    </form>
+</section>
+
+
+<!-- home section ends here-->
+
+<!-- services section starts-->
+<section class="services" id="services">
+
+    <h1 class="heading"> Our <span>Services</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="house1.jpg" alt="">
+            <h3>Buying Home</h3>
+            <p>We understand that buying a house is more than just a transaction; it’s a life-changing experience. 
+                That’s why our team of highly-seasoned real estate professionals is dedicated to providing exceptional, 
+                personalized service for all of our clients. We take great pride in the relationships we build and always 
+                work relentlessly on the client’s behalf to help them achieve their real estate goals.</p>
+            <a href="#" class="btn">Learn More</a>    
+        </div>
+
+        <div class="box">
+            <img src="house1.jpg" alt="">
+            <h3>Renting Home</h3>
+            <p>Our team at RealEstate is equipped with the expertise to handle the sale of your property from start to finish. 
+                We know how to handle every aspect of the sales process - from strategically marketing and showcasing your home to 
+                making sure everything’s signed, sealed, and delivered by the closing date. 
+                Providing you with comprehensive, high-quality listing service is our top priority.</p>
+            <a href="#" class="btn">Learn More</a>    
+        </div>
+
+        <div class="box">
+            <img src="house1.jpg" alt="">
+            <h3>Selling Home</h3>
+            <p>Whether you’re looking for your dream home or a solid return on your real estate investment, 
+                RealEstate has the resources to make it happen. We offer an extensive list of houses to rent, 
+                from single-family homes to luxury condos. 
+                We’re here to help you find a rental property that fits your lifestyle and budget.</p>
+            <a href="#" class="btn">Learn More</a>    
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- services section ends-->
+
+
+<!-- feature section starts-->
+<section class="features" id="features">
+    <h1 class="heading"><span>Featured</span>Properties</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image-container">
+                <img src="img-featured-1.avif" alt="">
+                <div class="info">
+                    <h3>3 days ago</h3>
+                    <h3>For Rent</h3>
+                </div>
+                
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>Rs.5000000</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+            </div>
+            <div class="locations">
+                <h3>Modern Appartments</h3>
+                <p>Karunya Nagar, Coimbatore-641114</p>    
+            </div>
+            <div class="details">
+                <h3><i class="fas fa-expand"></i>350 sqft</h3>
+                <h3><i class="fas fa-bed"></i>3 Bedrooms</h3>
+                <h3><i class="fas fa-bath"></i>3 Bathrooms</h3>
+            </div>
+        </div>
+        
+    </div><br>
+    <div class="buttons">
+        <a href="#" class="btn">Request Info</a>
+        <a href="#" class="btn">View Details</a>
+    </div><br>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image-container">
+                <img src="img-featured2.jpeg" alt="">
+                <div class="info">
+                    <h3>3 days ago</h3>
+                    <h3>For Rent</h3>
+                </div>
+                
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>Rs.7500000</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+            </div>
+            <div class="locations">
+                <h3>Individual House</h3>
+                <p>Karunya Nagar, Coimbatore-641114</p>    
+            </div>
+            <div class="details">
+                <h3><i class="fas fa-expand"></i>350 sqft</h3>
+                <h3><i class="fas fa-bed"></i>3 Bedrooms</h3>
+                <h3><i class="fas fa-bath"></i>3 Bathrooms</h3>
+            </div>
+        </div>
+        
+    </div><br>
+    <div class="buttons">
+        <a href="#" class="btn">Request Info</a>
+        <a href="#" class="btn">View Details</a>
+    </div><br>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image-container">
+                <img src="img-featured-1.avif" alt="">
+                <div class="info">
+                    <h3>3 days ago</h3>
+                    <h3>For Rent</h3>
+                </div>
+                
+            </div>
+            <div class="content">
+                <div class="price">
+                    <h3>Rs.12500000</h3>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-envelope"></a>
+                    <a href="#" class="fas fa-phone"></a>
+                </div>
+            </div>
+            <div class="locations">
+                <h3>Villas</h3>
+                <p>Karunya Nagar, Coimbatore-641114</p>    
+            </div>
+            <div class="details">
+                <h3><i class="fas fa-expand"></i>350 sqft</h3>
+                <h3><i class="fas fa-bed"></i>3 Bedrooms</h3>
+                <h3><i class="fas fa-bath"></i>3 Bathrooms</h3>
+            </div>
+        </div>
+        
+    </div><br>
+    <div class="buttons">
+        <a href="#" class="btn">Request Info</a>
+        <a href="#" class="btn">View Details</a>
+    </div><br>
+    
+</section>
+
+
+
+
+
+
+
+
+<!-- feature section ends-->
+
+
+<!-- agent section starts-->
+<section class="agents" id="agents">
+    <h1 class="heading">Professional <span>Agents</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <a href="mailto:jasonmervin04@gmail.com" class="fas fa-envelope"></a>
+            <a href="tel:9042072972" class="fas fa-phone"></a>
+            <img src="pfp.jpg" alt="Jason">
+            <h3>Jason Mervin V</h3>
+            <span>Agent</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <a href="mailto:jowinantony@karunya.edu.in" class="fas fa-envelope"></a>
+            <a href="tel:" class="fas fa-phone"></a>
+            <img src="pfp.jpg" alt="Jowin">
+            <h3>Jowin Antony s</h3>
+            <span>Agent</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    
+<!--contact section starts-->
+<section class="contact" id="contact">
+    <form action="">
+        <h3>Contact Us</h3>
+    <form action="/login" method="get" >
+        <input style="font-size: 2rem;" placeholder="Email" name="name" type="email">
+        <br>
+        <textarea style="font-size: 2rem;"name="queries" id="queries" placeholder="Your Queries"></textarea>
+        <br>
+        <input style="width:25%; align-self: center;" type="submit" value="Submit" class="btn">
+    </form>
+</section>
+<!-- contact section ends-->
+
+
+
+
+
+
+
+<!-- footer ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- javascript-->
+<script>
+let menu=document.querySelector('#menu-bars');
+let navbar=document.querySelector('.navbar');
+
+menu.onclick=() =>{
+    navbar.classList.toggle('active');
+    menu.classList.toggle('fa-times');
+
+}
+
+window.onscroll= () =>{
+    navbar.classList.remove('active');
+    menu.classList.remove('fa-times');
+
+}
+</script>  
+
+
+
+<!--javascript-->
+        
+
+
+
+
+
+</body>
+ </html>
